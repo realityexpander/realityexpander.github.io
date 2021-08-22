@@ -1,0 +1,200 @@
+html, body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+  margin: 0;
+}
+
+#container {
+  margin: 0 10px;
+  border: 1px solid #f1f1f1;
+  border-top-style: none;
+}
+
+/* Header */
+.header-container {
+  height: auto;
+  display: flex;
+  align-items: left;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin: 0 5px;
+}
+.displayNameContainer {
+  display: flex;
+  align-items: center;
+}
+.displayName {
+  font-weight: bold;
+  font-size: 1.3rem;
+  display: flex;
+  margin-right: 5px;
+}
+.header-back-button {
+  margin: 10px 30px;
+  cursor: pointer;
+  filter: invert(27%) 
+    sepia(51%) 
+    saturate(2878%) 
+    hue-rotate(346deg) 
+    brightness(104%) 
+    contrast(97%);
+}
+.header-back-button:hover {
+  opacity: .5;
+}
+.header-tweetcount {
+  margin-top: 3px;
+  font-size: .9rem;
+  color: grey;
+}
+
+/* Cover Photo */
+.header-cover-photo-url {
+  margin-top: 10px;
+  width: 100%;
+}
+.header-cover-photo-url  img {
+  width: 100%;
+}
+
+/* User Info */
+.userInfoContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+}
+.userInfo-left .profileImageContainer {
+  position: relative;
+  top: -100px; /* move inside the profile image */
+}
+.userInfo-left .profileImg {
+  border-radius: 50%;
+  border: 5px solid white;
+}
+.userInfo-left .displayNameContainer {
+  margin-top: -100px; /* adjust to underneath the profile image */
+}
+.userInfo-left .userName {
+  color: RGB(76, 99, 120);
+}
+.userInfo-left .joinedDateContainer {
+  margin-top: 12px;
+}
+.userInfo-left .followersContainer {
+  margin-top: 10px;
+  color: grey;
+}
+.userInfo-left .following-count,
+.userInfo-left .follower-count {
+  color: black;
+  font-weight: 600;
+}
+.userInfo-right {
+  margin-top: 10px;
+}
+.userInfo-right button {
+  color: white;
+  background: RGB(74,160,234);
+  margin-right: 15px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-style: none;
+  cursor: pointer;
+}
+button:hover {
+  opacity: .8;
+}
+
+/* Navigation tabs */
+.navigation-tabs {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-around;
+}
+.navigation-tabs .tab {
+  text-align: center;
+  padding: 15px;
+  width: 100%;
+  font-weight: bold;
+  color:RGB(76, 99, 120);
+  cursor: pointer;
+}
+.navigation-tabs .tab:hover {
+  opacity: .5;
+}
+.navigation-tabs .tab-active {
+  color:RGB(74,160,234);
+  border-bottom: 3px solid RGB(74,160,234);
+}
+
+/* Tweets */
+.tweetsContainer {
+  margin-top: 15px;
+}
+.tweetOuterContainer {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #e1e1e1;
+}
+.tweetContainer {
+  display: flex;
+  align-items: center;
+}
+.tweetContainer-bottom {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  width: 100%;
+  align-items: baseline;
+}
+.tweetContainer-bottom > p {
+  cursor: pointer;
+  display: flex;
+}
+.tweetContainer-bottom > p img {
+  margin-right: 5px;
+}
+.tweetContainer-bottom > p:hover {
+  opacity: .5;
+}
+.tweet-display-avatarURL {
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.tweetInnerContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.tweetInner-right {
+  margin-right: 20px;
+  cursor: pointer;
+}
+.tweet-displayName {
+  display:flex;
+  margin-bottom: 5px;
+}
+.tweet-displayName-displayName-span {
+  font-size: 1rem;
+  font-weight: bold;
+  align-items: center;
+  margin-right: 3px;
+}
+.tweet-displayName-userName-span {
+  color: RGB(76, 99, 120);
+  margin-right: 5px;
+  margin-left: 3px;
+}
+
+.timeline {
+  margin-top: 15px;
+}
+
+.hidden {
+  display: none;
+}

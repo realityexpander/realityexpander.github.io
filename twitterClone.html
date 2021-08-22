@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Twitter Clone</title>
+  <link rel="stylesheet" href="twitterClone.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <div id="container">
+
+    <div class="header-container">
+      <div>
+        <p class="header-back-button"> 
+          <img src="assets/arrow-left.svg" width=20px>
+          <!-- <svg viewBox="0 0 448 512" width="20" title="arrow-left">
+            <path d="M257.5 445.1l-22.2 22.2c-9.4 9.4-24.6 9.4-33.9 0L7 273c-9.4-9.4-9.4-24.6 0-33.9L201.4 44.7c9.4-9.4 24.6-9.4 33.9 0l22.2 22.2c9.5 9.5 9.3 25-.4 34.3L136.6 216H424c13.3 0 24 10.7 24 24v32c0 13.3-10.7 24-24 24H136.6l120.5 114.8c9.8 9.3 10 24.8.4 34.3z" />
+          </svg> -->
+        </p>
+      </div>
+    </div>
+
+    <div class="header-cover-photo-url">
+    </div>
+
+    <div class="userInfoContainer">
+      <div class="userInfo-left"> 
+        <div class="left-block">
+          <div class="profileImageContainer">
+            <img class="profileImg" width=180 src="">
+          </div>
+          <div class="displayNameContainer"></div>
+          <p class="userName">@userName</p>
+          <p class="joinedDateContainer">
+            📅 Joined 
+            <span class="joinedDate">join-date</span>
+          </p>
+          <p class="followersContainer">
+             <span class="following-count">XXX</span> Following 
+             <span class="follower-count">XXX</span> Followers
+          </p>
+          
+        </div>
+      </div>
+
+      <div class="userInfo-right">
+        <button>Following</button>
+      </div>
+
+    </div>
+
+    <div class="navigation-tabs">
+        <p class="tab tab-active" data-content="tweets">Tweets</p>
+        <p class="tab" data-content="timeline">Tweets & replies</p> 
+        <p class="tab" data-content="media">Media</p>
+        <p class="tab" data-content="likes">Likes</p>
+    </div>
+    <div class="content tweetsContainer" data-content="tweets"> 
+    </div>
+    <div class="content timeline hidden" data-content="timeline">
+      TIMELINE
+    </div>
+    <div class="content hidden" data-content="media">
+      <p>MEDIA HERE</p>
+      <a href="/twitterClone.html?user=user2">Bill Gates</a><br>
+      <a href="/twitterClone.html?user=user1">Elon Musk</a>
+
+    </div>
+    <div class="content hidden" data-content="likes">
+      LIKES HERE
+    </div>
+
+  </div>
+
+
+  
+</body>
+<script src="twitterClone.js"></script>
+</html>

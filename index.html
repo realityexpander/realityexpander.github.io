@@ -1,82 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Twitter Clone</title>
-  <link rel="stylesheet" href="twitterClone.css">
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>test</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/Corporate-Footer-Clean.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
+
 <body>
-
-  <div id="container">
-
-    <div class="header-container">
-      <div>
-        <p class="header-back-button"> 
-          <img src="assets/arrow-left.svg" width=20px>
-          <!-- <svg viewBox="0 0 448 512" width="20" title="arrow-left">
-            <path d="M257.5 445.1l-22.2 22.2c-9.4 9.4-24.6 9.4-33.9 0L7 273c-9.4-9.4-9.4-24.6 0-33.9L201.4 44.7c9.4-9.4 24.6-9.4 33.9 0l22.2 22.2c9.5 9.5 9.3 25-.4 34.3L136.6 216H424c13.3 0 24 10.7 24 24v32c0 13.3-10.7 24-24 24H136.6l120.5 114.8c9.8 9.3 10 24.8.4 34.3z" />
-          </svg> -->
-        </p>
-      </div>
-    </div>
-
-    <div class="header-cover-photo-url">
-    </div>
-
-    <div class="userInfoContainer">
-      <div class="userInfo-left"> 
-        <div class="left-block">
-          <div class="profileImageContainer">
-            <img class="profileImg" width=180 src="">
-          </div>
-          <div class="displayNameContainer"></div>
-          <p class="userName">@userName</p>
-          <p class="joinedDateContainer">
-            📅 Joined 
-            <span class="joinedDate">join-date</span>
-          </p>
-          <p class="followersContainer">
-             <span class="following-count">XXX</span> Following 
-             <span class="follower-count">XXX</span> Followers
-          </p>
-          
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-md-3">
+                    <h4>Lorem Ipsum dolor</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Consectetur adipiscing</a></li>
+                        <li><a href="#">Facilisis vulputate est eget</a></li>
+                        <li><a href="#">Lorem ipsum dolor</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-3">
+                    <h4>Sed elit eros</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Aenean condimentum viverra</a></li>
+                        <li><a href="#">Proin porta diam</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-3">
+                    <h4>Donec quis turpis vel</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Proin laoreet volutpat</a></li>
+                        <li><a href="#">Aenean tincidunt est</a></li>
+                    </ul>
+                    <h4>Nulla cursus finibus</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Curabitur elementum odio</a></li>
+                        <li><a href="#">Proin condimentum ac</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-3">
+                    <h4>Nullam ut rutrum elit</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Praesent gravida</a></li>
+                        <li><a href="#">Praesent egestas</a></li>
+                    </ul>
+                    <h4>Ut eget feugiat ante</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Etiam ornare vestibulum</a></li>
+                        <li><a href="#">Donec tincidunt tempus</a></li>
+                    </ul>
+                </div>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+            <hr>
+            <div class="footer-legal">
+                <div class="float-md-end region"><a href="#"><img src="assets/img/united-states-flag.png">United States</a></div>
+                <div class="d-inline-block copyright">
+                    <p class="d-inline-block">Copyright © 2018. All rights reserved.<br></p>
+                </div>
+                <div class="d-inline-block legal-links">
+                    <div class="d-inline-block item">
+                        <h5>Privacy Policy</h5>
+                    </div>
+                    <div class="d-inline-block item">
+                        <h5>Terms of Use</h5>
+                    </div>
+                    <div class="d-inline-block item">
+                        <h5>Legal</h5>
+                    </div>
+                    <div class="d-inline-block item">
+                        <h5>License</h5>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-
-      <div class="userInfo-right">
-        <button>Following</button>
-      </div>
-
-    </div>
-
-    <div class="navigation-tabs">
-        <p class="tab tab-active" data-content="tweets">Tweets</p>
-        <p class="tab" data-content="timeline">Tweets & replies</p> 
-        <p class="tab" data-content="media">Media</p>
-        <p class="tab" data-content="likes">Likes</p>
-    </div>
-    <div class="content tweetsContainer" data-content="tweets"> 
-    </div>
-    <div class="content timeline hidden" data-content="timeline">
-      TIMELINE
-    </div>
-    <div class="content hidden" data-content="media">
-      <p>MEDIA HERE</p>
-      <a href="/index.html?user=user2">Bill Gates</a><br>
-      <a href="/index.html?user=user1">Elon Musk</a>
-
-    </div>
-    <div class="content hidden" data-content="likes">
-      LIKES HERE
-    </div>
-
-  </div>
-
-
-  
+    </footer>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 </body>
-<script src="twitterClone.js"></script>
+
 </html>

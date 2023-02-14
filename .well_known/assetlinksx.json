@@ -1,9 +1,0 @@
-[{
-   "relation": ["delegate_permission/common.handle_all_urls"],
-   "target": {
-     "namespace": "android_app",
-     "package_name": "com.realityexpander.deeplinkingcompose",
-     "sha256_cert_fingerprints":
-     ["2E:05:94:C9:6F:8D:06:47:0C:3D:44:A2:91:4E:84:63:D8:A9:A1:78:7A:21:68:69:1A:C7:FA:20:AC:AD:B0:EE"]
-   }
-}]

@@ -4,13 +4,21 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1da702f-3bd6-4cf8-92c6-819cb7c1671c" name="Changes" comment="publish push">
+    <list default="true" id="d1da702f-3bd6-4cf8-92c6-819cb7c1671c" name="Changes" comment="make dot files visible">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.well_known/assetlinks.json" beforeDir="false" afterPath="$PROJECT_DIR$/.well_known/assetlinks.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -24,6 +32,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2LiiviE9g59HSrz6Ga4Kxnlqmpm" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -61,7 +72,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676360726081</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="make dot files visible">
+      <created>1676361985566</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1676361985566</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -78,6 +96,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add main" />
     <MESSAGE value="publish push" />
-    <option name="LAST_COMMIT_MESSAGE" value="publish push" />
+    <MESSAGE value="make dot files visible" />
+    <option name="LAST_COMMIT_MESSAGE" value="make dot files visible" />
   </component>
 </project>

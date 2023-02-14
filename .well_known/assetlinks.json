@@ -1,9 +1,9 @@
 [{
-   "relation": ["delegate_permission/common.handle_all_urls"],
-   "target": {
-     "namespace": "android_app",
-     "package_name": "com.realityexpander.deeplinkingcompose",
-     "sha256_cert_fingerprints":
-     ["2E:05:94:C9:6F:8D:06:47:0C:3D:44:A2:91:4E:84:63:D8:A9:A1:78:7A:21:68:69:1A:C7:FA:20:AC:AD:B0:EE"]
-   }
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.realityexpander.deeplinkingcompose",
+    "sha256_cert_fingerprints":
+    ["2D:50:82:F9:A6:40:DB:5D:8D:E6:4B:53:BC:CE:AE:57:53:40:94:D1:77:96:CE:D5:AB:52:14:6D:EB:AE:DA:09"]
+  }
 }]
